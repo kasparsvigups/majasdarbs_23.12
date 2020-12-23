@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(112, 162, 179);
 }
 svg {
     fill: gray;
@@ -8,5 +8,9 @@ svg {
 }
 
 svg:hover {
+    fill: red;
+}
+.to-rigt {
+    transform: rotate(-90deg);
     fill: red;
 }
